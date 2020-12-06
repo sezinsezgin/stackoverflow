@@ -22,6 +22,8 @@ def clean_data(df):
     4. Drop the Salary, Respondent, and the ExpectedSalary columns
     5. For each numeric variable, fill the column with the mean value.
     6. Create dummy columns for all the categorical variables, drop the original columns
+    
+    7- that is for a change
     '''
     # Drop rows with missing salary values
     df = df.dropna(subset=['Salary'], axis=0)
